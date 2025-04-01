@@ -80,25 +80,6 @@ form button:hover {
   background-color: #109bdc;
 }
 
-/* @keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.hidden {
-  opacity: 0;
-}
-
-.animate {
-  animation: fadeIn 1s forwards;
-} */
-
 @media (max-width: 768px) {
   nav ul {
     display: none;
