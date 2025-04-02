@@ -24,6 +24,7 @@ nav ul {
   list-style: none;
   display: flex;
   gap: 15px;
+  transition: all 0.3s;
 }
 
 nav ul li a {
@@ -154,8 +155,14 @@ footer ul li a:hover {
 @media (max-width: 768px) {
   nav ul {
     display: none;
+    position: absolute;
+    top: 40px;
+    right: 5px;
+    background-color: #1f2937;
     flex-direction: column;
     gap: 10px;
+    padding: 20px;
+    border-radius: 8px;
   }
 
   nav.active ul {
