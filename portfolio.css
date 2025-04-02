@@ -16,8 +16,8 @@ nav {
   padding: 10px 20px;
   background-color: #1f2937;
   color: white;
-  /* position: sticky;
-    top: 0; */
+  position: sticky;
+  top: 0;
 }
 
 nav ul {
@@ -37,8 +37,12 @@ nav ul li a {
 }
 
 .section {
-  padding: 60px 20px;
+  padding: 20px;
   text-align: center;
+}
+
+#about p {
+  text-align: justify;
 }
 
 .project-cards {
@@ -79,6 +83,38 @@ form button {
 form button:hover {
   background-color: #109bdc;
 }
+
+footer {
+  background: #1f2937;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto;
+}
+
+footer p {
+  color: white;
+  margin: 10px 0;
+  font-size: 0.9rem;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 10px 0;
+  gap: 15px;
+}
+
+footer ul li a {
+  color: rgb(165, 162, 162);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+footer ul li a:hover {
+  color: rgb(255, 255, 255);
 
 @media (max-width: 768px) {
   nav ul {
